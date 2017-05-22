@@ -1545,10 +1545,9 @@ Game.update = function(){ // Main update loop of the client
                 }
             }
             //console.log(tiles);
-
-            Game.updateMarker(Game.markerPosition.x, Game.markerPosition.y, collide);
-            Game.previousMarkerPosition.set(Game.markerPosition.x, Game.markerPosition.y);
         }
+        Game.updateMarker(Game.markerPosition.x, Game.markerPosition.y, collide);
+        Game.previousMarkerPosition.set(Game.markerPosition.x, Game.markerPosition.y);
     }
 };
 
